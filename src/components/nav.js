@@ -1,5 +1,4 @@
-import React from 'react';
-import '../styles/Navbar.css';
+import React from 'react'
 
 function Nav({ setPage }) {
   return (

@@ -1,21 +1,8 @@
-import React, { Component } from 'react';
-import Home from "./components/pages/Home";
-import About from "./components/pages/About";
-import Contact from "./components/pages/Contact";
-import Resume from "./components/pages/Resume";
-class App extends Component {
-  render() {
-  return (
-    <div>
-      <Home />
-      <About />
-      <Resume />
-      <Contact />
+import React from 'react';
+import Welcome from './components/Welcome';
 
-    </div>
-  );
-  }
-}
+
+  const App = () => < Welcome/>;
 
 
 export default App;

@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import Nav from './Nav';
-import Home from '../pages/Home';
-import About from '../pages/About';
-import Contact from '../pages/Contact';
-import Resume from '../pages/Resume';
+import Home from '../components/pages/Home';
+import About from '../components/pages/About';
+import Contact from '../components/pages/Contact';
+import Resume from '../components/pages/Resume';
 
 // Here we destructure our props into their own distinct variables
-export default function Welcome({ loggedIn, setLoggedIn }) {
+export default function Welcome() {
   // Lets log our our loggedIn variable to see it change in real time
-  console.log('Welcome -> loggedIn', loggedIn);
+ 
   const [page, setPage] = useState('home');
 
   let CurrectPage;
